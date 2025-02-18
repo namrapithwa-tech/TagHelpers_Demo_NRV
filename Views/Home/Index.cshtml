@@ -3,8 +3,23 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome To Custom TagHelpers</h1>
 </div>
 
+<h2>Image Examples Using Custom Tag Helper</h2>
+
 <Namra path="/css/DU.png" altText="Logo of Darshan University" width="300" height="200"></Namra>
+
+<h2>Button Examples Using Custom Tag Helper</h2>
+
+<!-- Primary Button -->
+<custom-button text="Primary" background="primary" />
+
+<!-- Outline Danger Button -->
+<custom-button text="Danger Outline" background="danger" outline="true" />
+
+<!-- Large Success Button with Alert -->
+<custom-button text="Click Me" background="success" size="lg" onclick="alert('Button Clicked!')" />
+
+<!-- Small Warning Button -->
+<custom-button text="Small Warning" background="warning" size="sm" />
